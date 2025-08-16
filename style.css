@@ -1,0 +1,150 @@
+
+    body {
+      background-color: #0d0d0d;
+      color: #fff;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    .navbar {
+      background-color: #000;
+      padding: 1rem 2rem;
+    }
+    .navbar-brand {
+      color: #ff0055;
+      font-weight: 700;
+    }
+    .nav-link {
+      color: #fff !important;
+      margin-right: 1rem;
+    }
+    .btn-pink {
+      background-color: #ff0055;
+      color: #fff;
+      border: none;
+    }
+    .hero-section img,
+    .mission-section img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .section-title {
+      color: #ff0055;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+    }
+    .hero-section h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+    }
+    .mission-section h3 {
+      font-size: 1.8rem;
+      font-weight: 600;
+    }
+    .signup-section {
+      background-color: #111;
+      padding: 4rem 1rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .signup-section h4 {
+      font-weight: 600;
+      font-size: 1.5rem;
+    }
+    .email-input {
+      max-width: 500px;
+      margin: auto;
+    }
+    .footer {
+      background-color: #000;
+      padding: 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+    .curve-left, .curve-right {
+      position: absolute;
+      border: 10px solid #ff0055;
+      border-radius: 50%;
+    }
+    .curve-left {
+      top: -30px;
+      left: -30px;
+      width: 120px;
+      height: 120px;
+    }
+    .curve-right {
+      bottom: -40px;
+      right: -40px;
+      width: 150px;
+      height: 150px;
+    }
+    .programs-section img, .testimonials-section img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    .program-card {
+      background-color: #1a1a1a;
+      padding: 2rem;
+      border-radius: 8px;
+      height: 100%;
+    }
+    .testimonial {
+      background-color: #1a1a1a;
+      padding: 2rem;
+      border-radius: 8px;
+      margin-bottom: 2rem;
+    }
+    .mission-img {
+         filter: drop-shadow(8px 12px 8px rgba(0, 0, 0, 0.5));
+    }
+    .custom-input {
+    background-color: #1a1a1a;
+    color: #fff;
+    border: 1px solid #444;
+    border-radius: 5px;
+    padding: 0.75rem 1rem;
+  }
+
+  .custom-input::placeholder {
+    color: #bbb;
+    font-style: italic;
+  }
+
+  .custom-input:focus {
+    background-color: #1a1a1a;
+    color: #fff;
+    border-color: #ff0055;
+    box-shadow: 0 0 5px #ff0055;
+    outline: none;
+  }
+  #mainNavbar {
+  transition: top 0.3s ease-in-out;
+  background-color: #000; /* same as your navbar */
+  z-index: 999;
+}
+
+  .tip-img {
+    max-height: 180px;
+    width: auto;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+    @media (max-width: 768px) {
+      .hero-section h1 {
+        font-size: 2rem;
+      }
+      .mission-section h3 {
+        font-size: 1.4rem;
+      }
+      .curve-right{
+        display: none;
+      }
+        .mission-img {
+          width: 180px;
+          filter: drop-shadow(5px 8px 6px rgba(0, 0, 0, 0.4));
+        }
+        #missionImg{
+          margin-bottom: 100px;
+          margin-top: -10%;
+        }
+    }
+ 
